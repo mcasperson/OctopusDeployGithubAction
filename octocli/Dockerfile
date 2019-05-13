@@ -9,5 +9,6 @@ LABEL "repository"="https://github.com/mcasperson/OctopusDeployGithubAction"
 LABEL "homepage"="https://github.com/mcasperson/OctopusDeployGithubAction"
 LABEL "maintainer"="Matthew Casperson <matthewcasperson@gmail.com>"
 
+# See https://github.com/OctopusDeploy/OctopusClients/blob/master/Dockerfiles/alpine/Dockerfile
 WORKDIR /src
 ENTRYPOINT ["dotnet", "/octo/Octo.dll"]
